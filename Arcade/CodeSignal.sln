@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSignalTests", "CodeSign
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTests", "SkillTests\SkillTests.csproj", "{F60B2A72-3448-405B-9260-4EB9BECD0A96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenges", "Challenges\Challenges.csproj", "{B99A6AF5-BCB1-4431-9976-76C3D0F5DC3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F60B2A72-3448-405B-9260-4EB9BECD0A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F60B2A72-3448-405B-9260-4EB9BECD0A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F60B2A72-3448-405B-9260-4EB9BECD0A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B99A6AF5-BCB1-4431-9976-76C3D0F5DC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99A6AF5-BCB1-4431-9976-76C3D0F5DC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99A6AF5-BCB1-4431-9976-76C3D0F5DC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99A6AF5-BCB1-4431-9976-76C3D0F5DC3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
