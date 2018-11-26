@@ -21,5 +21,14 @@ namespace CodeSignalTests
             inputArray = new int[] { 5, 6, -4, 2, 3, 2, -23 };
             Assert.AreEqual(30, EdgeOfTheOcean.AdjacentElementsProduct(inputArray));
         }
+
+        [TestMethod]
+        public void TestShapeArea()
+        {
+            Assert.AreEqual(5, EdgeOfTheOcean.ShapeArea(2));
+            Assert.AreEqual(13, EdgeOfTheOcean.ShapeArea(3));
+            Assert.AreEqual(1, EdgeOfTheOcean.ShapeArea(1));
+            Assert.AreEqual(41, EdgeOfTheOcean.ShapeArea(5));
+        }
     }
 }
