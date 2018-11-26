@@ -22,6 +22,8 @@ namespace Arcade
             //Edge Of The Ocean
             inputArray = new int[] { 3, 6, -2, -5, 7, 3 };
             Console.WriteLine(EdgeOfTheOcean.AdjacentElementsProduct(inputArray)); // should return 21
+            Console.WriteLine(EdgeOfTheOcean.ShapeArea(2)); //should return 5
+            Console.WriteLine(EdgeOfTheOcean.MakeArrayConsecutive2(new int[] { 6, 2, 3, 8 })); //should return 3
 
             //Rains of Reason
             inputArray = new int[] { 1, 2, 1 };
